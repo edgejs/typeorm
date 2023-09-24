@@ -29,6 +29,8 @@ export class SqliteDriver extends AbstractSqliteDriver {
      */
     sqlite: any
 
+    transactionSupport: 'simple' = 'simple';
+
     // -------------------------------------------------------------------------
     // Constructor
     // -------------------------------------------------------------------------
