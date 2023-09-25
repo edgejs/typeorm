@@ -175,3 +175,6 @@ if (typeof window !== "undefined" && typeof require !== "undefined") {
 if (typeof global !== "undefined" && typeof require !== "undefined") {
     global.Buffer = require("buffer/").Buffer;
 }
+if (typeof self !== "undefined" && typeof require !== "undefined") {
+    self.Buffer = require("buffer/").Buffer;
+}
